@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+*.app/
+*.dmg/
+*.zip/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Local logs/temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Project specific
+models/en-us/
+models/en-us.tar.gz
+audio/audio.mp3
+# Keeping the audio folder but ignoring the large files might be better?
+# Actually, the user might want to keep the models for the app to work offline.
+# But usually models are not committed to git.

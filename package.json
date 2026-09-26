@@ -1,0 +1,35 @@
+{
+  "name": "aria-assistant",
+  "version": "1.0.0",
+  "description": "ARIA — Adaptive Real-time Intelligent Assistant",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Akshat Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.4.11"
+  },
+  "build": {
+    "mac": {
+      "extendInfo": {
+        "NSMicrophoneUsageDescription": "Please give us access to your microphone",
+        "NSCameraUsageDescription": "Please give us access to your camera",
+        "com.apple.security.device.microphone": true,
+        "com.apple.security.device.audio-input": true,
+        "com.apple.security.device.camera": true
+      }
+    }
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@soniox/speech-to-text-web": "^1.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.1.2",
+    "vosk-browser": "^0.0.8"
+  }
+}
