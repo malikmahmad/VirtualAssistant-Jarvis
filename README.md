@@ -83,5 +83,5 @@ The build output will be located in the `dist/` folder.
 ---
 
 ## 👨‍💻 Created By
-**Akshat Singh** — Tech Creator & Developer.
+**Malik Muhammad Ahmad** — Tech Creator & Developer.
 Designed to bring the future to the present.
